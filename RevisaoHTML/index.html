@@ -7,6 +7,14 @@
         <link href="style.css" rel="stylesheet">
         <style>
             body{background:rgb(40, 100, 124)}
+
+            .estilo-campo{
+                background: green;
+            }
+
+            #descricao{
+                background: yellow;
+            }
         </style>
     </head>        
     
@@ -50,8 +58,8 @@
                                 <tb>Valor1</tb>
                                 <tb>Valor2</tb>
                             </tr>
-                            <tr>Valor3</tr>
-                            <tr>Valo4</tr>
+                                <tb>Valor3</tb>
+                                <tb>Valo4</tb>
                         </tbody>
                         <tfooder>
                             <tr> 
@@ -63,12 +71,18 @@
 
                 <form action="" method="">
                     <label for="nome">Insira seu nome:</label>
-                    <input type="text" name="nome" id="nome"/>
+                    <input type="text" name="nome" id="nome" class="estilo-caompo"/>
+
                     <label for="e-mail">Insira seu e-mail:</label>
-                    <input type="email" name="email" id="e-mail"/>
+
+                    <input type="email" name="email" id="e-mail"  class="estilo-campo"/>
+
                     <label for="descricao">fale sobre você:</label>
+
                     <textarea name="descricao" id="descricao"></textarea>
+
                     <label for="estado">Informe o estado:</label>
+
                     <select name="estado" id="estado">
                         <option value="SP">São Paulo</option>
                         <option value="PR">Paraná</option>
