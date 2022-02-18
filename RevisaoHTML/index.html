@@ -6,96 +6,98 @@
         <meta charset="utf-8">
         <link href="style.css" rel="stylesheet">
         <style>
-            body{background:rgb(40, 100, 124)}
+            body{background:rgb(212, 240, 252)}
 
             .estilo-campo{
-                background: green;
+                background: rgb(248, 250, 248);
             }
 
             #descricao{
-                background: yellow;
+                background: rgb(248, 248, 245);
             }
+
+            .normal{
+                font-weight: normal
+            }
+
+            .alinhamento{
+
+                text-align: 50px;
+            }
+
+            table {
+                width: 50%;
+                border: 0ch;
+            }
+
+            .fonte{
+                width: 300px;
+                margin: auto;
+                font-family: "Lucida Console", "Courier New", monospace;
+            }
+
+
         </style>
     </head>        
     
     <body>
-        <header>
-            <nav>
-               <ul>
-                   <li>Item X</li>
-                   <li>Item Y</li>
-                   <li>Item Z</li>
-               </ul> 
-               <ol>
-                   <li>Item 1</li>
-                   <li>Item 2</li>
-                   <li>Item 3</li>
-               </ol>
-            </nav>
-        </header>
-
         <main>
             <section>
-                <h1>Título de Nível 1</h1>
-                <h2>Titulo de Nível 2</h2>
-                <div>
+                <h1 class="fonte">Título de Nível 1</h1><br>
+                <h2 class="fonte">Titulo de Nível 2</h2>
+
+                <div class="fonte">
                     <p>Este é um texto</p>
-                    <p>Este é um <span class="texto-vermelho">
-                                bloco de conteúdo
-                              </span>
-                    </p>
+                    <p>Este é um <span class="texto-vermelho">bloco de conteúdo</span></p>
                 </div>
                 <hr/>
 
-                <table border="1">
-                    <caption>Tabela</caption>
-                    <thead>
-                        <tr>
-                            <th colspan="2">Tabela Exemplo</th>
-                        </tr>
-                        <tbody>
-                            <tr>
-                                <tb>Valor1</tb>
-                                <tb>Valor2</tb>
-                            </tr>
-                                <tb>Valor3</tb>
-                                <tb>Valo4</tb>
-                        </tbody>
-                        <tfooder>
-                            <tr> 
-                                <tb colspan="2">Rodapé da tabela</tb>
-                            </tr>
-                        </tfooder>
-                    </thead>
-                </table>
+                <table>
+                    <tr>
+                      <th>Company</th>
+                      <th>Contact</th>
+                      <th>Country</th>
+                    </tr>
+                    <tr>
+                      <td>Alfreds Futterkiste</td>
+                      <td>Maria Anders</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Centro comercial Moctezuma</td>
+                      <td>Francisco Chang</td>
+                      <td>Mexico</td>
+                    </tr>
+                  </table><br><br><br>
+
+            <div class="alinhamento" class="fonte">
 
                 <form action="" method="">
-                    <label for="nome">Insira seu nome:</label>
-                    <input type="text" name="nome" id="nome" class="estilo-caompo"/>
+                    <label class="normal" for="nome">Insira seu nome:</label>
 
-                    <label for="e-mail">Insira seu e-mail:</label>
+                    <input type="text" name="nome" id="nome" class="estilo-caompo"/><br><br><br>
 
-                    <input type="email" name="email" id="e-mail"  class="estilo-campo"/>
+                    <label class="normal" for="e-mail">Insira seu e-mail:</label>
 
-                    <label for="descricao">fale sobre você:</label>
+                    <input type="email" name="email" id="e-mail"  class="estilo-campo"/><br><br><br>
 
-                    <textarea name="descricao" id="descricao"></textarea>
+                    <label class="normal" for="descricao">fale sobre você:</label>
 
-                    <label for="estado">Informe o estado:</label>
+                    <textarea name="descricao" id="descricao"></textarea><br><br><br>
+
+                    <label class="normal" for="estado">Informe o estado:</label>
 
                     <select name="estado" id="estado">
                         <option value="SP">São Paulo</option>
                         <option value="PR">Paraná</option>
-                    </select>
-                 
+                    </select><br><br><br>
                 </form>
+            </div>
 
-            </section>
         </main>
-        
-        <footer>
+                <footer>
 
-        </footer>
+                </footer>
     </body>
 
 </html>
