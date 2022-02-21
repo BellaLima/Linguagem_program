@@ -8,10 +8,42 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Isabela Rodrigues</title>
   </head>
   <body class="container">
     <h1>Cake Dream's</h1>
+
+    <div class="row">
+      <div class="col-2">coluna 1</div>
+         <label for="email" class="label-control">
+         Informe seu e-mail:
+        </label>
+            <input type="email" class="form-control" id="email" name="email">
+      
+
+      <div class="col">
+        <label for="senha" class="label-control">
+          Informe a senha
+        </label>
+            <input type="password" class="form-control" id="senha" name="senha">
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div class="col">
+        <button type="submit" class="btn btn-success mt-5 mb-5">Enviar</button>
+      </div>
+    </div>
+
+    <select class="form-select mt-5 mb-5 bg-success p-2 text-dark bg-opacity-25" aria-label="Default select example">
+      <option selected>Selecione a sua unidade federativa</option>
+      <option value="1">São Paulo</option>
+      <option value="2">Rio de Janeiro</option>
+      <option value="3">Espiríto Santo</option>
+      <option value="3">Ceará</option>
+    </select>
 
     <div class="row">
         <div class="col">Coluna1</div>
@@ -27,6 +59,21 @@
             <div class="col">Coluna3</div>
             <div class="col">Coluna4</div>
         </div>
+
+    <table class="table table-info table-hover table-responsive ">
+      <thead>
+        <tr>
+          <th>Coluna 1</th>
+          <th>coluna 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>dados</td>
+          <td>dados</td>
+        </tr>
+      </tbody>
+    </table>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
