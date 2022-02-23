@@ -14,27 +14,32 @@
     <h1>Preencha o formulário:</h1>
 
     <div class="row">
-        <div class="col-4">
+
+        <div class="col-3">
           <input type="text" class="form-control" placeholder="First name" aria-label="First name">
         </div>
-        <div class="col-4">
+
+        <div class="col-6">
           <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+
+          <div class="col-3">
+            <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+            <div class="input-group">
+              <div class="input-group-text">@</div>
+              <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
+            </div>
         </div>
       </div>
 
-      <div class="col-3">
-        <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
-        <div class="input-group">
-          <div class="input-group-text">@</div>
-          <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
-        </div>
-
-     
-        <div class="col-5">
+    <div class="row">
+        <div class="col-6">
           <label for="inputCity" class="form-label">Cidade</label>
           <input type="text" class="form-control" id="inputCity">
         </div>
-        <div class="col-4">
+
+
+        <div class="col-3">
           <label for="inputState" class="form-label">UF</label>
           <select id="inputState" class="form-select">
             <option selected>Selecione</option>
@@ -45,10 +50,14 @@
             <option>Minas Gerais</option>
           </select>
         </div>
-        <div class="col-4">
+
+
+        <div class="col-3">
           <label for="inputZip" class="form-label">CEP</label>
           <input type="text" class="form-control" id="inputZip">
         </div>
+      </div> 
+
         <div class="col-12">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="gridCheck">
