@@ -17,6 +17,7 @@
        $Valor1 = $_POST['Valor1'];
        $Valor2 = $_POST['Valor2'];
        echo "Valor 1 é: $Valor1 e Valor 2 é: $Valor2";
+       //mais menos vezes e dividir
 
     ?>
 
