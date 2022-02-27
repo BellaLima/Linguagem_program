@@ -19,7 +19,7 @@
        echo "Valor 1 é: $Valor1 e Valor 2 é: $Valor2";
        if (($Valor1 % 2) == 0);
        echo "Valor 1 é Par"
-       else
+       else;
        echo "Valor 1 é impar"
        //mais menos vezes e dividir
 
