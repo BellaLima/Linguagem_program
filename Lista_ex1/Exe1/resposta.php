@@ -11,32 +11,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Cálculos</h1>
-
-
-<?php
-      $valor1 = $_POST['valor1'];
-      $valor2 = $_POST['valor2'];
-      echo "Valor 1 é:  $valor1 e Valor 2 é:  $valor2";
-      echo "<br/>";
-      echo "Soma: ".($valor1 + $valor2);
-      echo "Subtração: ".($valor1 - $valor2);
-      echo "Multiplicação: ".($valor1 * $valor2);
-      if ($valor2 != 0){
-         echo "Divisão: "($valor1 / $valor2);
-      } else {
-        echo "Não é possível realizar divisão por 0!";
-      }
-      if ($valor1 % 2 == 0)
-        echo "Valor 1 é par!";
-        else
-        echo "valor é impar!";
-
-      for ($i = 0; $i < 10; $i++)
-          echo "valor 1 "
-
-
-    ?>
+    <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

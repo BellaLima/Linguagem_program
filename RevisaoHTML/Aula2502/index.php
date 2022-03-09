@@ -16,13 +16,13 @@
     <form method="post" action="resposta.php">
         <div class="row">
             <div class="col">
-                <label for="Valor1" class="label-control">Informa o valor 1: </label>
-                <input type="number" name="Valor1" id="Valor1" class="form-control"/>
+                <label for="valor1" class="label-control">Informa o valor 1: </label>
+                <input type="number" name="valor1" id="valor1" class="form-control"/>
             </div>
             
             <div class="col">
-                <label for="Valor2" class="label-control">Informa o valor 2: </label>
-                <input type="number" name="Valor2" id="Valor2" class="form-control"/>
+                <label for="valor2" class="label-control">Informa o valor 2: </label>
+                <input type="number" name="valor2" id="valor2" class="form-control"/>
             </div> 
         </div>
 
