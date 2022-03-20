@@ -8,25 +8,30 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Exercicio4 Resposta</title>
+    <title>Exercicio 2</title>
   </head>
-  <body>
-    <h1>Exercicio4 Resposta</h1>
+  <body class="container">
+    <h1>Exercicio 2</h1>
+    <form action="resultado.php" method="post">
+    <div class="row">
     <?php
-    $valor = $_POST['valor'];
-
-    if ($valor > 1){
-      echo "O valor digitado é um valor positivo";
-    }
-
-    elseif ($valor == 0){
-      echo "O valor digitado é 0";
-    }
-
-    else{
-      echo "O valor digitado é negativo";
-    }
+       for ($i=1; $i<=20; $i++){
     ?>
+        <div class="col">
+            <label for="valor<?= $i ?>" class="label-control">Informe o valor <?= $i ?>: </label>
+            <input type="number" name="valor<?= $i ?>" id="valor1" class="form-control"/>
+        </div>
+    <?php
+       }
+    ?>
+
+    </div>
+    <div class="row mt-5">
+        <div class="col">
+            <button class="btn btn-primary">Enviar</button>
+        </div>
+    </div>
+</form>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

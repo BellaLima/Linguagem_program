@@ -8,25 +8,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Exercicio4 Resposta</title>
+    <title>Exercicio 2 Resposta</title>
   </head>
   <body>
-    <h1>Exercicio4 Resposta</h1>
-    <?php
-    $valor = $_POST['valor'];
-
-    if ($valor > 1){
-      echo "O valor digitado é um valor positivo";
-    }
-
-    elseif ($valor == 0){
-      echo "O valor digitado é 0";
-    }
-
-    else{
-      echo "O valor digitado é negativo";
-    }
-    ?>
+    <h1>Exercicio 2 Resposta</h1>
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 

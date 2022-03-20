@@ -8,24 +8,45 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Exercicio 4</title>
+    <title>Exercicio 5</title>
   </head>
   <body class="container">
-    <h1>Exercicio 4</h1>
-    <form action="resposta.php" method="POST">
+    <h1>Exercicio 5</h1>
+    <form method="post" action="resposta.php">
         <div class="row">
             <div class="col-3">
-                <label class="label-control" for="valor">Informe um valor qualquer: </label>
-                <input type="number" name="valor" id="valor" class="form-control">
+                <label class="control-label" for="nota1" >Informe a nota 1: </label>
+                <input type="double" name="nota1" id="nota1" class="form-control">
             </div>
         </div>
 
-        <div class="row mt-5">
+        <div class="row">
+            <div class="col-3">
+                <label class="control-label" for="nota2" >Informe a nota 2: </label>
+                <input type="double" name="nota2" id="nota2" class="form-control">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <label class="control-label" for="nota3" >Informe a nota 3: </label>
+                <input type="double" name="nota3" id="nota3" class="form-control">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <label class="control-label" for="nota4" >Informe a nota 4: </label>
+                <input type="double" name="nota4" id="nota4" class="form-control">
+            </div>
+        </div>
+    </form>
+
+    <div class="row mt-5">
         <div class="col">
             <button class="btn btn-primary">Enviar</button>
         </div>
     </div>
-    </form>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
