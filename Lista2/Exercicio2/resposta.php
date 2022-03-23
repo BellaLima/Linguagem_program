@@ -12,6 +12,28 @@
   </head>
   <body>
     <h1>Exercicio 2 Resposta</h1>
+
+    <?php
+
+      for ($i = 1; $i <= 20; $i++){
+         $vetor[$i] = $_POST["valor$i"];
+      }
+
+      $valorProcurar = $_POST["valorProcurar"];
+      
+      foreach ($vetor as $chave => $valor){
+        if ($valor == $valorProcurar){
+          echo "Valor: $valorProcurar está na posição: $chave";
+          echo "<br/>";
+        }
+      }
+
+      if ($valor != $valorProcurar){
+        for ($i = 1; $i < 2; $i++){
+          
+        }
+      }
+    ?>
     
 
     <!-- Optional JavaScript; choose one of the two! -->
