@@ -10,7 +10,7 @@
 
     <title>Exercicio 2 Resposta</title>
   </head>
-  <body>
+  <body class="container">
     <h1>Exercicio 2 Resposta</h1>
 
     <?php
@@ -21,19 +21,19 @@
 
       $valorProcurar = $_POST["valorProcurar"];
       
-      foreach ($vetor as $chave => $valor){
-        if ($valor == $valorProcurar){
-          echo "Valor: $valorProcurar está na posição: $chave";
-          echo "<br/>";
-        }
-      }
+      $naoEncontrado = true;
 
-      if ($valor != $valorProcurar){
-        for ($i = 1; $i < 2; $i++){
-          
+      foreach ($vetor as $chave => $valor) {
+        if ($valor == $valorProcurar) {
+          echo "Valor : $valorProcurar está na posição : $chave ";
+          echo "<br>";
+          $naoEncontrado = false;
         }
       }
-    ?>
+      if ($naoEncontrado){
+        echo "Valor não encontrado";
+      }
+      ?>
     
 
     <!-- Optional JavaScript; choose one of the two! -->

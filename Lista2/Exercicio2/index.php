@@ -12,7 +12,7 @@
   </head>
   <body class="container">
     <h1>Exercicio 2</h1>
-    <form action="resultado.php" method="post">
+    <form action="resposta.php" method="post">
     <div class="row">
     <?php
        for ($i=1; $i<=20; $i++){
