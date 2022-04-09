@@ -13,36 +13,46 @@
 </head>
 
 <body class="container">
-    <h1>Introdução Cookies</h1>
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">Acessar</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   <h1>Sistema em PHP</h1>
+   <div class="col"></div>
+    <div class="col">
+        
+        <div class="modal mt-5" tabindex="-1" style="display: block;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Acessar</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" action="resposta.php">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email" class="label-control">
+                                        Informe o email
+                                    </label>
+                                    <input type="email" name="email" id="email" class="form-control" />
+                                </div>
                             </div>
-                            <div class="modal-body">
-                                <form action="resposta.php" method="POST">
-                                    <div class="row">
-                                        <div class="col">
-                                                <label for="email" class="label-control">Informe seu e-mail: </label>
-                                                <input type="email" name="email" id="email" class="form-control">
-                                            </div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <label for="senha" class="label-control">Senha: </label>
-                                                <input type="password" name="senha" id="senha" class="form-control">
-                                            </div>
-                                        </div>
-                                    </div>
-                                        <div class="modal-footer">
-                                            <button type="submit" class="btn btn-secondary">Acessar</button>
-                                        </div>
-                                </form>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="senha" class="label-control">
+                                        Informe a senha:
+                                    </label>
+                                    <input type="password" name="senha" id="senha" class="form-control" />
+                                </div>
                             </div>
-                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">acessar</button>
+                        </form>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
