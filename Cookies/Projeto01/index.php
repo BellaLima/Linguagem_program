@@ -17,40 +17,37 @@
    <div class="col"></div>
     <div class="col">
         
-        <div class="modal mt-5" tabindex="-1" style="display: block;">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Acessar</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form method="post" action="resposta.php">
-                            <div class="row">
-                                <div class="col">
-                                    <label for="email" class="label-control">
-                                        Informe o email
-                                    </label>
-                                    <input type="email" name="email" id="email" class="form-control" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <label for="senha" class="label-control">
-                                        Informe a senha:
-                                    </label>
-                                    <input type="password" name="senha" id="senha" class="form-control" />
-                                </div>
-                            </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary">acessar</button>
-                        </form>
-                    </div>
-                </div>
+    <div class="modal mt-5" tabindex="-1" style="display: block;">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Acessar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+
+    <div class="modal-body">
+        <form method="post" action="resposta.php">
+        <div class="row">
+        <div class="col">
+            <label for="email" class="label-control">Informe o email</label>
+            <input type="email" name="email" id="email" class="form-control" />
         </div>
-        <div class="col"></div>
+    </div>
+
+        <div class="row">
+        <div class="col">
+            <label for="senha" class="label-control">Informe a senha:</label>
+            <input type="password" name="senha" id="senha" class="form-control" />
+        </div>
+            </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">acessar</button>
+    </div>
+        </div>
+            </div>
+                </div>
     </div>
 
 
