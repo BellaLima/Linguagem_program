@@ -10,9 +10,10 @@
 
     <title>sistema</title>
   </head>
-  <body>
+  <body class="container">
     <h1>sistema</h1>
-
+  <div class="row">
+    <div class="col-6">       
     <?php
     if ($_POST) {
         $email = $_POST['email'];
@@ -20,7 +21,7 @@
       
 
         session_start();
-        if (($email == "faroso@gmail.com") && ($senha == "123")) {
+        if (($email == "Isabela@gmail.com") && ($senha == "123@minhaLinda")) {
             $_SESSION['usuario'] = $email;
             $_SESSION['acesso'] = true;
             echo "Bem vindo usúario " . $_SESSION['usuario'];
@@ -33,14 +34,16 @@
         session_start();
         if ($_SESSION['acesso'] == true) {
             echo "Seja bem vindo usuário " . $_SESSION['usuario'];
+   
             echo '<br><a href="sair.php">Sair</a>';
         } else {
             header('Location: index.php');
             exit;
         }
     }
-
     ?>
+    </div>
+  </div>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
