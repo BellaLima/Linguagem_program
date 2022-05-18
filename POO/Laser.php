@@ -9,7 +9,7 @@ class Laser extends Impressora{
     {
         $this->setMarca($marca);
         $this->setModelo($modelo);
-        $this->set($numAgulha);
+        $this->setNumAgulha($numAgulha);
         $this->setColorida($colorida);
         $this->setImprimeVias($imprimeVias);
         $this->setPeso($peso);
