@@ -20,6 +20,12 @@ $router->get('/ola-mundo', function(){
 $router->get('/exemplo', 'Aluno\Projeto0405\Controller\ExercicioController::exibir');
 
 $router->post('/exemplo-resultado', 'Aluno\Projeto0405\Controller\ExercicioController::exibir_resultado');
+
+
+$router->get('/cliente/novo', 'Aluno\Projeto0405\Controller\ClientesController::abrirFormularioInserir');
+
+$router-post('/cliente/inserir', 'Aluno\Projeto0405\Controller\ClientesController::inserir_cliente');
+
 $result = $router->handler();
 
 if (!$result){
