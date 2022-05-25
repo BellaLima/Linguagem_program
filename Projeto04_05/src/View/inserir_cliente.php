@@ -12,14 +12,18 @@
     <title>Cadastro de clientes</title>
   </head>
   <body class="container">
+      <?php require_once "barra_navegacao.php";?>
+
     <h1>Cadastro de clientes</h1>
-    <form action="" method="post">
+    <form action="/cliente/inserir" method="post">
         <div class="row">
             <div class="col-5">
                 <label for="nome" class="label-control">Digite o nome:</label>
                 <input type="text" class="form-control" name="nome" id="nome">
             </div>
         </div>
+        <br>
+        <br>
 
         <div class="row">
             <div class="col-5">
@@ -27,16 +31,20 @@
                 <input type="text" class="form-control" name="email" id="email">
             </div>
         </div>
+        <br>
+        <br>
 
         <div class="row">
             <div class="col-2">
                 <label for="idade" class="label-control">Digite a idade:</label>
                 <input type="number" class="form-control" name="idade" id="idade">
             </div>
+            <br>
+            <br>
 
         <div class="row flex-row-reverse">
             <div class="col-auto">
-            <button class="btn btn-danger text-center" type="submit">Resetar</button>
+            <button class="btn btn-danger text-center" type="submit">Apagar</button>
             <button class="btn btn-success text-center" type="submit">Próximo</button>
             </div>
         </div>

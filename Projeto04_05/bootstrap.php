@@ -24,7 +24,9 @@ $router->post('/exemplo-resultado', 'Aluno\Projeto0405\Controller\ExercicioContr
 
 $router->get('/cliente/novo', 'Aluno\Projeto0405\Controller\ClientesController::abrirFormularioInserir');
 
-$router-post('/cliente/inserir', 'Aluno\Projeto0405\Controller\ClientesController::inserir_cliente');
+$router->post('/cliente/inserir', 'Aluno\Projeto0405\Controller\ClientesController::inserirCliente');
+
+$router->get('/clientes', 'Aluno\Projeto0405\Controller\ClientesController::abrirListaClientes');
 
 $result = $router->handler();
 
