@@ -1,9 +1,9 @@
 {
-    "name": "aluno/projeto04_05",
+    "name": "aluno/listacomrotas",
     "description": "Projeto composer",
     "autoload": {
         "psr-4": {
-            "Aluno\\Projeto0405\\": "src/"
+            "Aluno\\ListaComRotas\\": "src/"
         }
     },
     "authors": [
