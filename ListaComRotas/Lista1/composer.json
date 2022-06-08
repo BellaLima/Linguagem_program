@@ -1,0 +1,16 @@
+{
+    "name": "aluno/projeto04_05",
+    "description": "Projeto composer",
+    "autoload": {
+        "psr-4": {
+            "Aluno\\Projeto0405\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BellaLima",
+            "email": "93015684+BellaLima@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
