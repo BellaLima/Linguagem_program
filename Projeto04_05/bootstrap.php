@@ -28,6 +28,17 @@ $router->post('/cliente/inserir', 'Aluno\Projeto0405\Controller\ClientesControll
 
 $router->get('/clientes', 'Aluno\Projeto0405\Controller\ClientesController::abrirListaClientes');
 
+$router->post('/produto/inserir','Aluno\Projeto0405\Controller\ProdutosController::inserirProduto');
+
+$router->post('/produto/editar/{id}', 'Aluno\Projeto0405\Controller\ProdutosController::editarProduto');
+
+$router->get('/produto/excluir/{id}', 'Aluno\Projeto0405\Controller\ProdutosController::excluirProduto');
+
+$router->get( '/produto/novo', 'Aluno\Projeto0405\Controller\ProdutosController::abrirFormularioInserir');
+
+
+// COLOCAR AS ROTAS ACIMA
+
 $result = $router->handler();
 
 if (!$result){
